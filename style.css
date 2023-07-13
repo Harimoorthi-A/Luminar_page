@@ -1,0 +1,58 @@
+.d1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transform: scale(1.01, 1.01);
+    transition: ease-in-out;
+  }
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transform: scale(1.01, 1.01);
+    transition: ease-in-out;
+  }
+.vbutton{
+    background-color: white;
+    color: rgb(94, 6, 138); 
+    height: 50px; 
+    width: 200px; 
+    border-radius: 50px; 
+    border: solid 2px rgb(94, 6, 138);
+}
+.vbutton:hover{
+    background-color:  rgb(94, 6, 138);
+    color: white;
+}
+
+@media(max-width:768px){
+    .cart{
+        font-size: 8px;
+    }
+    .lumdes{
+        width: 300px;
+        max-width: fit-content;
+        font-size: smaller;
+    }
+    .thpic{
+        width: 100%;
+    }
+    .lumr{
+        width: 100%;
+    }
+    .btnspan{
+        display: none;
+    }
+    .trainbtn{
+        width: 150px;
+        height: 60px;
+        padding: 0px;
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .modal{
+        height: 600px;
+        width: 300px;
+    }
+    .boxx{
+        width: 200px;
+    }
+}
