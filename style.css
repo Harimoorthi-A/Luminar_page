@@ -26,6 +26,10 @@
 @media(max-width:768px){
     .cart{
         font-size: 8px;
+        display: block;
+    }
+    .navimg{
+        margin-left: 0.5%;
     }
     .lumdes{
         width: 300px;
@@ -55,4 +59,8 @@
     .boxx{
         width: 200px;
     }
+    .carousel-caption{
+        font-size: large;
+    }
+
 }
